@@ -1,0 +1,250 @@
+{
+  "Tasks": {
+    "total": 26,
+    "running": 1,
+    "sleeping": 25,
+    "stopped": 0,
+    "zombie": 0
+  },
+  "%CPU": {
+    "user": 1.0,
+    "system": 0.0,
+    "idle": 4.0
+  },
+  "KiB Mem": {
+    "total": 4109803520,
+    "free": 327696384,
+    "used": 2831347712
+  },
+  "KiB Swap": {
+    "total": 1073737728,
+    "free": 1071890432,
+    "used": 1847296
+  },
+  "Timestamp": 1751106263
+}
+{
+  "Tasks": {
+    "total": 26,
+    "running": 1,
+    "sleeping": 25,
+    "stopped": 0,
+    "zombie": 0
+  },
+  "%CPU": {
+    "user": 0.6,
+    "system": 0.5,
+    "idle": 98.7
+  },
+  "KiB Mem": {
+    "total": 4109803520,
+    "free": 325349376,
+    "used": 2833813504
+  },
+  "KiB Swap": {
+    "total": 1073737728,
+    "free": 1071890432,
+    "used": 1847296
+  },
+  "Timestamp": 1751106268
+}
+{
+  "Tasks": {
+    "total": 26,
+    "running": 1,
+    "sleeping": 25,
+    "stopped": 0,
+    "zombie": 0
+  },
+  "%CPU": {
+    "user": 0.4,
+    "system": 0.4,
+    "idle": 99.1
+  },
+  "KiB Mem": {
+    "total": 4109803520,
+    "free": 324763648,
+    "used": 2834399232
+  },
+  "KiB Swap": {
+    "total": 1073737728,
+    "free": 1071890432,
+    "used": 1847296
+  },
+  "Timestamp": 1751106273
+}
+{
+  "Tasks": {
+    "total": 26,
+    "running": 1,
+    "sleeping": 25,
+    "stopped": 0,
+    "zombie": 0
+  },
+  "%CPU": {
+    "user": 0.6,
+    "system": 0.5,
+    "idle": 98.8
+  },
+  "KiB Mem": {
+    "total": 4109803520,
+    "free": 334790656,
+    "used": 2824372224
+  },
+  "KiB Swap": {
+    "total": 1073737728,
+    "free": 1071890432,
+    "used": 1847296
+  },
+  "Timestamp": 1751106278
+}
+{
+  "Tasks": {
+    "total": 26,
+    "running": 1,
+    "sleeping": 25,
+    "stopped": 0,
+    "zombie": 0
+  },
+  "%CPU": {
+    "user": 0.4,
+    "system": 0.3,
+    "idle": 99.1
+  },
+  "KiB Mem": {
+    "total": 4109803520,
+    "free": 339111936,
+    "used": 2820059136
+  },
+  "KiB Swap": {
+    "total": 1073737728,
+    "free": 1071890432,
+    "used": 1847296
+  },
+  "Timestamp": 1751106283
+}
+{
+  "Tasks": {
+    "total": 26,
+    "running": 1,
+    "sleeping": 25,
+    "stopped": 0,
+    "zombie": 0
+  },
+  "%CPU": {
+    "user": 0.5,
+    "system": 0.5,
+    "idle": 98.8
+  },
+  "KiB Mem": {
+    "total": 4109803520,
+    "free": 338464768,
+    "used": 2820706304
+  },
+  "KiB Swap": {
+    "total": 1073737728,
+    "free": 1071890432,
+    "used": 1847296
+  },
+  "Timestamp": 1751106288
+}
+{
+  "Tasks": {
+    "total": 26,
+    "running": 1,
+    "sleeping": 25,
+    "stopped": 0,
+    "zombie": 0
+  },
+  "%CPU": {
+    "user": 0.4,
+    "system": 0.4,
+    "idle": 99.1
+  },
+  "KiB Mem": {
+    "total": 4109803520,
+    "free": 340131840,
+    "used": 2819039232
+  },
+  "KiB Swap": {
+    "total": 1073737728,
+    "free": 1071890432,
+    "used": 1847296
+  },
+  "Timestamp": 1751106293
+}
+{
+  "Tasks": {
+    "total": 26,
+    "running": 1,
+    "sleeping": 25,
+    "stopped": 0,
+    "zombie": 0
+  },
+  "%CPU": {
+    "user": 0.9,
+    "system": 0.6,
+    "idle": 98.4
+  },
+  "KiB Mem": {
+    "total": 4109803520,
+    "free": 339812352,
+    "used": 2819334144
+  },
+  "KiB Swap": {
+    "total": 1073737728,
+    "free": 1071890432,
+    "used": 1847296
+  },
+  "Timestamp": 1751106298
+}
+{
+  "Tasks": {
+    "total": 26,
+    "running": 1,
+    "sleeping": 25,
+    "stopped": 0,
+    "zombie": 0
+  },
+  "%CPU": {
+    "user": 0.3,
+    "system": 0.4,
+    "idle": 99.3
+  },
+  "KiB Mem": {
+    "total": 4109803520,
+    "free": 338255872,
+    "used": 2820907008
+  },
+  "KiB Swap": {
+    "total": 1073737728,
+    "free": 1071890432,
+    "used": 1847296
+  },
+  "Timestamp": 1751106303
+}
+{
+  "Tasks": {
+    "total": 26,
+    "running": 1,
+    "sleeping": 25,
+    "stopped": 0,
+    "zombie": 0
+  },
+  "%CPU": {
+    "user": 0.3,
+    "system": 0.4,
+    "idle": 99.2
+  },
+  "KiB Mem": {
+    "total": 4109803520,
+    "free": 337739776,
+    "used": 2821406720
+  },
+  "KiB Swap": {
+    "total": 1073737728,
+    "free": 1071890432,
+    "used": 1847296
+  },
+  "Timestamp": 1751106308
+}
