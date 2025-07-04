@@ -10,9 +10,9 @@ from collections import Counter
 class SystemMonitor:
     #initializes the object that holds parsed argument values
     def __init__(self, args):
-        self.args = args
-        self.args.i = int(self.args.i)
-        self.args.n = int(self.args.n)
+        self.i = int(args.i)
+        self.f = args.f
+        self.n = int(args.n)
     
     #counts the number of processes running on a system and collects them based on their current status
     def processes_stats(self):
@@ -57,18 +57,18 @@ class SystemMonitor:
     def mem_stats(self):
         mem = psutil.virtual_memory()
         return{
-            "total": mem.total,
-            "free": mem.free,
-            "used": mem.used
+            "total": mem.total // 1024,
+            "free": mem.free // 1024,
+            "used": mem.used // 1024
         }
 
     #calculates the workload of the swap memory
     def swap_stats(self):
         swap = psutil.swap_memory()
         return{
-            "total": swap.total,
-            "free": swap.free,
-            "used": swap.used
+            "total": swap.total // 1024,
+            "free": swap.free // 1024,
+            "used": swap.used //1024
         }
     
     #calculates the timestamp of the current timestamp
@@ -90,20 +90,19 @@ class SystemMonitor:
         
     #runs the system and writes its performance data to both json file and stdout
     def run(self):
-        with open(self.args.f, "w") as file:
-            pass
+        with open(self.f, "w") as file:
+            file.write("")
 
-        for _ in range(self.args.n):
+        for _ in range(self.n):
             current_snapshot = self.collect_snapshot()
 
             os.system('clear')
-            print(json.dumps(current_snapshot, indent=2))
+            print(current_snapshot, end="\r")
 
-            with open(self.args.f, "a") as file:
-                json.dump(current_snapshot, file, indent=2)
-                file.write("\n")
+            with open(self.f, "a") as file:
+                file.write(json.dumps(current_snapshot) + "\n")
             
-            time.sleep(self.args.i)
+            time.sleep(self.i)
 
 def main():
     parser = argparse.ArgumentParser()
